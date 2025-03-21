@@ -89,3 +89,5 @@ def log_progress(message):
     timestamp = now.strftime(timestamp_format) 
     with open("./etl_project_log.txt","a") as f: 
         f.write(timestamp + ' : ' + message + '\n')  
+
+
